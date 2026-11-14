@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "chathistory",
+  "version": "1.0.0",
+  "name": "Chat History",
+  "description": "Pełna, trwała historia wiadomości i komend z czatu.",
+  "environment": "client",
+  "entrypoints": { "client": ["pl.chathistory.ChatHistoryMod"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "fabric-api": "*"
+  }
+}
